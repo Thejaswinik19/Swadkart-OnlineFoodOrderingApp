@@ -1,0 +1,59 @@
+.admin-orders-container {
+  padding: 2rem;
+  background-color: #fffde7;
+  color: black; /* Ensures text inside is black by default */
+}
+
+.admin-heading {
+  color: #fbc02d;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.admin-order-card {
+  border: 2px solid #fdd835;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: black; /* Explicit */
+}
+
+.admin-order-header {
+  background-color: #fbc02d;
+  color: black;
+  padding: 0.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.admin-img {
+  width: 60px;
+  border-radius: 8px;
+}
+
+.status-dropdown {
+  padding: 0.3rem;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fffde7;
+  color: black; /* dropdown text */
+}
+
+.admin-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+  color: black; /* ensure table text is black */
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #fdd835;
+  padding: 8px;
+  text-align: center;
+  color: black; /* individual cell fallback */
+}

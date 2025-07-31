@@ -1,0 +1,95 @@
+/* Dashboard.css */
+
+/* Container styles */
+.container {
+  background-color: #f4c52b; /* Yellow background */
+  color: #000000;            /* Black text */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Fade in with slight upward movement */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Gentle pulsing glow */
+@keyframes pulse {
+  0%, 100% {
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.15);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+}
+
+/* Base styles and animations for headings */
+h2, h3 {
+  color: #000000;
+  font-weight: bold;
+  margin: 0.5em 0;
+  animation: fadeInUp 1s ease forwards, pulse 3s ease-in-out 1.2s infinite;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease,
+    text-shadow 0.3s ease;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+  cursor: default;
+}
+
+/* Hover effects */
+h2:hover, h3:hover {
+  color: #222222;
+  transform: scale(1.07);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.4), 0 0 12px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+/* Text-center utility class */
+.text-center {
+  color: #000000;
+  text-align: center;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: default;
+}
+
+.text-center:hover {
+  color: #222222;
+  transform: scale(1.03);
+  cursor: pointer;
+}
+/* Welcome heading */
+.welcome-heading {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  animation: fadeInUp 1s ease forwards, pulse 3s ease-in-out 1.2s infinite;
+  color: #000000;
+  font-weight: 700;
+}
+
+/* Subtext for welcome */
+.welcome-subtext {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333333;
+  margin-top: 0.4rem;
+  animation: fadeInUp 1.2s ease forwards;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional hover effect */
+.welcome-heading:hover .welcome-subtext {
+  color: #111;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

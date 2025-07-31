@@ -1,0 +1,32 @@
+.top-recipes-container {
+  padding: 40px;
+  background-color: #facc15; /* Rich yellow background */
+  text-align: center;
+}
+
+.top-recipes-title {
+  margin-bottom: 40px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.top-recipes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.top-recipes-card {
+  width: 280px;
+  background: white;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.top-recipes-card:hover {
+  transform: translateY(-5px);
+}
