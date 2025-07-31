@@ -17,7 +17,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL || '*', // Adjust as needed
+  origin: process.env.FRONTEND_URL || '*',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
@@ -35,15 +35,13 @@ app.use('/api', authRoutes);
 app.use('/api/cart', cartRoutes);
 app.use('/api/category-foods', categoryFoodRoutes);
 app.use('/api/orders', orderRoutes);
-app.use('/api/users', authRoutes);
 app.use('/api/analytics', analyticsRoutes);
 app.use('/api/payment', require('./routes/payment'));
 
-// Serve static files (images, uploads, etc.)
+// Serve static files
 app.use('/images', express.static('images'));
-// app.use('/uploads', express.static('uploads'));
 
-// Serve React frontend build
+// Serve React build
 app.use(express.static(path.join(__dirname, '../client/build')));
 
 app.get('*', (req, res) => {
