@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Paneer Butter Masala",
+    "description": "Creamy cottage cheese curry.",
+    "price": 180,
+    "category": "Main Course",
+    "restaurant": "Desi Treat",
+    "veg": true,
+    "image": "http://localhost:5000/images/PaneerButterMasala.jpg",
+    "rating": 4.5,
+    "numReviews": 132
+  },
+  {
+    "name": "Chicken Biryani",
+    "description": "Spicy layered rice with chicken.",
+    "price": 220,
+    "category": "Main Course",
+    "restaurant": "Hyderabadi House",
+    "veg": false,
+    "image": "http://localhost:5000/images/ChickenBiryani.jpg",
+    "rating": 4.7,
+    "numReviews": 200
+  },
+  {
+    "name": "Masala Dosa",
+    "description": "Crispy dosa stuffed with spicy potato.",
+    "price": 80,
+    "category": "Breakfast",
+    "restaurant": "Hotel Udupi",
+    "veg": true,
+    "image": "http://localhost:5000/images/MasalaDosa.jpg",
+    "rating": 4.3,
+    "numReviews": 156
+  },
+  {
+    "name": "Mutton Rogan Josh",
+    "description": "Rich lamb curry from Kashmir.",
+    "price": 270,
+    "category": "Main Course",
+    "restaurant": "Kashmir Flavors",
+    "veg": false,
+    "image": "http://localhost:5000/images/MuttonRoganJosh.jpg",
+    "rating": 4.6,
+    "numReviews": 98
+  },
+  {
+    "name": "Veg Fried Rice",
+    "description": "Stir-fried rice with veggies.",
+    "price": 120,
+    "category": "Main Course",
+    "restaurant": "Chow Corner",
+    "veg": true,
+    "image": "http://localhost:5000/images/VegFriedRice.jpg",
+    "rating": 4.2,
+    "numReviews": 104
+  },
+  {
+    "name": "Gobi Manchurian",
+    "description": "Cauliflower tossed in Indo-Chinese sauce.",
+    "price": 100,
+    "category": "Starter",
+    "restaurant": "Chow Corner",
+    "veg": true,
+    "image": "http://localhost:5000/images/GobiManchurian.jpg",
+    "rating": 4.4,
+    "numReviews": 115
+  },
+  {
+    "name": "Chicken Shawarma",
+    "description": "Middle Eastern wrap with grilled chicken.",
+    "price": 150,
+    "category": "Snacks",
+    "restaurant": "Arabian Bites",
+    "veg": false,
+    "image": "http://localhost:5000/images/ChickenShawarma.jpg",
+    "rating": 4.8,
+    "numReviews": 210
+  },
+  {
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with hot sambar.",
+    "price": 60,
+    "category": "Breakfast",
+    "restaurant": "South Cafe",
+    "veg": true,
+    "image": "http://localhost:5000/images/IdliSambar.jpg",
+    "rating": 4.0,
+    "numReviews": 75
+  },
+  {
+    "name": "Chole Bhature",
+    "description": "Puffed bread served with spicy chickpeas.",
+    "price": 110,
+    "category": "Lunch",
+    "restaurant": "North Thali",
+    "veg": true,
+    "image": "http://localhost:5000/images/CholeBhature.jpg",
+    "rating": 4.5,
+    "numReviews": 142
+  },
+ 
+  {
+    "name": "Chicken 65",
+    "description": "Spicy deep-fried chicken starter.",
+    "price": 160,
+    "category": "Starter",
+    "restaurant": "Andhra Kitchen",
+    "veg": false,
+    "image": "http://localhost:5000/images/Chicken65.jpg",
+    "rating": 4.6,
+    "numReviews": 176
+  },
+  {
+    "name": "Pav Bhaji",
+    "description": "Spicy mashed vegetables with buttered bun.",
+    "price": 90,
+    "category": "Snacks",
+    "restaurant": "Mumbai Masala",
+    "veg": true,
+    "image": "http://localhost:5000/images/PavBhaji.jpg",
+    "rating": 4.3,
+    "numReviews": 122
+  },
+  {
+    "name": "Fish Curry",
+    "description": "Traditional Mangalorean fish curry.",
+    "price": 200,
+    "category": "Main Course",
+    "restaurant": "Coastal Catch",
+    "veg": false,
+    "image": "http://localhost:5000/images/FishCurry.jpg",
+    "rating": 4.7,
+    "numReviews": 140
+  },
+  {
+    "name": "Veg Pulao",
+    "description": "Aromatic rice with mixed vegetables.",
+    "price": 130,
+    "category": "Main Course",
+    "restaurant": "Green Leaf",
+    "veg": true,
+    "image": "http://localhost:5000/images/VegPulao.jpg",
+    "rating": 4.0,
+    "numReviews": 67
+  },
+  {
+    "name": "Egg Curry",
+    "description": "Boiled eggs in spicy gravy.",
+    "price": 140,
+    "category": "Main Course",
+    "restaurant": "Andhra Kitchen",
+    "veg": false,
+    "image": "http://localhost:5000/images/EggCurry.jpg",
+    "rating": 4.2,
+    "numReviews": 96
+  },
+  {
+    "name": "Aloo Paratha",
+    "description": "Stuffed potato flatbread with butter.",
+    "price": 70,
+    "category": "Breakfast",
+    "restaurant": "Punjabi Dhaba",
+    "veg": true,
+    "image": "http://localhost:5000/images/AlooParatha.jpg",
+    "rating": 4.4,
+    "numReviews": 111
+  },
+  {
+    "name": "Mysore Masala Dosa",
+    "description": "Spicy version of masala dosa.",
+    "price": 90,
+    "category": "Breakfast",
+    "restaurant": "Mysuru Cafe",
+    "veg": true,
+    "image": "http://localhost:5000/images/MysoreMasalaDosa.jpg",
+    "rating": 4.6,
+    "numReviews": 135
+  },
+  {
+    "name": "Veg Burger",
+    "description": "Burger with a crispy veggie patty.",
+    "price": 85,
+    "category": "Snacks",
+    "restaurant": "Snack Shack",
+    "veg": true,
+    "image": "http://localhost:5000/images/VegBurger.jpg",
+    "rating": 4.2,
+    "numReviews": 99
+  },
+  {
+    "name": "Tandoori Chicken",
+    "description": "Grilled chicken with smoky flavor.",
+    "price": 250,
+    "category": "Main Course",
+    "restaurant": "Tandoori Nights",
+    "veg": false,
+    "image": "http://localhost:5000/images/TandooriChicken.jpg",
+    "rating": 4.9,
+    "numReviews": 243
+  },
+  {
+    "name": "Rava Kesari",
+    "description": "Sweet semolina dessert with saffron.",
+    "price": 60,
+    "category": "Desserts",
+    "restaurant": "Udupi Sweets",
+    "veg": true,
+    "image": "http://localhost:5000/images/RavaKesari.jpg",
+    "rating": 4.3,
+    "numReviews": 73
+  }
+]
